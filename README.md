@@ -1,0 +1,67 @@
+# Learning Scala
+Topics viewed in Scala:
+- Optional brackets parenthesis
+  - differences in Scala 2 and Scala 3
+- `val` vs `var`
+- Enumeration
+- `lazy val`
+- Scala types hierarchy
+![Screenshot 2024-01-19 at 6.27.44 PM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fch%2F0by3l8j53vl5y975c676dj1h0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_HfypJe%2FScreenshot%202024-01-19%20at%206.27.44%20PM.png)
+- `Any`, `AnyVal`, and `AnyRef` Types
+- Other types:
+  - numeric (boolean, int, byte, char, short, long, float, double)
+  - type conversion
+    - E.g. `Byte.toString`, `Byte.toInt`, `Byte.toDouble`, ...
+  - Strings
+  - Unit type
+  - Date
+    - Formatting dates
+- Interpolation
+- Compare
+- Split
+- Arrays
+- Lists
+- Null vs Nothing
+- Functions
+  - functions definition
+- Control structures
+  - `if then/else`
+  - for loops
+    - `for` ... `to` 
+    - `for` ... `until`
+    - `foreach`
+  - While loops
+  - `match` expression
+    - `@switch` optimization
+  - `try / catch / finally`
+- OOP simple example
+  - Abstraction
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+    - static
+    - dynamic
+  - Classes
+    - constructors and fields
+    - fields visibility
+    - auxiliary constructors
+    - private constructor
+    - methods
+    - overriding default methods
+      - toString
+      - equals
+      - +, -, /, *
+  - Traits
+  - Enums
+  - Objects
+  - Packages and imports
+    - Excluding classes import
+  - Singleton Objects
+  - Companion Objects
+  - Opaque types
+- Pattern Matching
+  - matching anyType
+  - case classes
+  - Pattern matching in Lists
+    - `a :: rest`
+    - `case Nil`
